@@ -1,0 +1,58 @@
+/* reset.css */
+
+/* Elimina márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que todos los elementos tengan el mismo font y color */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Elimina decoraciones y establece color por defecto para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establece tamaño de fuente y margen por defecto para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Elimina la lista de estilos y padding en listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Establece el mismo diseño para imágenes y elementos multimedia */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegura que los formularios y los botones sean heredados de la fuente del sistema */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Quita bordes por defecto en los botones */
+button {
+    background: none;
+    border: none;
+}
+
+/* Quita estilos por defecto en tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

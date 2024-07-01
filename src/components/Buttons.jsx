@@ -18,10 +18,10 @@ const Buttons = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
         >
-            <a href='https://github.com/Omarbit26' className="flex items-center mx-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded border-2 border-white">
+            <a href='https://github.com/Omarbit26' target="_blank" className="bg-[#1282a2] flex items-center mx-4 hover:bg-[#034078] text-[#fefcfb] font-bold py-2 px-4 rounded ">
                 <span className='pr-3 text-lg'>Git Hub</span>
                 <svg xmlns="http://www.w3.org/2000/svg"
-                fill="white" // Cambiado el color a blanco
+                fill="white"
                 viewBox="0 0 16 16"
                 className="inline"
                 style={{ width: '1.5em', height: '1.5em', verticalAlign: '-0.28em' }}>
@@ -37,7 +37,7 @@ const Buttons = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
         >
-        <a href='https://www.linkedin.com/in/jose-aliaga-092428315/' className="flex items-center mx-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded border-2 border-white">
+        <a href='https://www.linkedin.com/in/jose-aliaga-092428315/' target="_blank" className=" bg-[#1282a2] flex items-center mx-4 hover:bg-[#034078] text-[#fefcfb] font-bold py-2 px-4 rounded ">
             <span className='pr-3 text-lg'>Linkedln </span> 
             <svg xmlns="http://www.w3.org/2000/svg"
             fill="white" 
@@ -57,7 +57,7 @@ const Buttons = () => {
         transition={{ duration: 0.5, ease: "easeOut", delay: 2.0 }}
         >
             <button
-            className="flex items-center mx-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded border-2 border-white"
+            className="bg-[#1282a2] flex items-center mx-4 hover:bg-[#034078] text-[#fefcfb] font-bold py-2 px-4 rounded "
             onClick={handleEmailClick}
             >
             <span className='pr-3 text-lg'>Email</span> 

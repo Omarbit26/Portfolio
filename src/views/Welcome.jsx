@@ -7,15 +7,15 @@ const Welcome = () => {
     
     return(
         <div>
-      <section id="home" className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-[#050d21] to-[#080e30] pt-20">
+      <section id="home" className="h-screen flex flex-col items-center justify-center bg-[#0a1128] pt-20">
         <motion.div
-          className="mx-auto items-center justify-center text-center text-white"
+          className="mx-auto items-center justify-center text-center text-[#fefcfb]"
           initial={{ y: -100, scale: 2, opacity: 0 }}
           animate={{ y: 0, scale: 1, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <h1 className="text-6xl font-bold">I'm Omar Aliaga</h1>
-          <p className="mt-4 text-2xl">Fullstack & Data Science developer 👾 👾 👾</p>
+          <p className="mt-4 text-1xl text-[#fefcfb]">Fullstack & data science developer</p>
         </motion.div>
 
         <Buttons/>

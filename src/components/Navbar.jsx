@@ -8,17 +8,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#0a1128] fixed w-full z-10 top-0 shadow border-b-2 border-[#1282a2] flex justify-center">
-        <div className="w-full container  flex flex-wrap items-center justify-between mt-0 py-2 px-20">
+    <nav className="bg-[#0a1128] fixed w-full z-10 top-0 shadow border-b-2 border-[#1282a2]">
 
-            <div className="pl-4 flex items-center">
+        <div className="container  flex flex-wrap items-center justify-between m-0 py-2 px-20 mx-auto">
+            <div className="flex items-center">
                 <a className="text-white text-base no-underline hover:no-underline font-extrabold text-xl" href="#home">
                 &lt;Omar/&gt;
                 </a>
             </div>
         
-            <div className="block lg:hidden pr-4">
-                <button onClick={toggleMenu} className="flex items-center p-1 text-white hover:text-gray-300 focus:outline-none">
+            <div className="block lg:hidden">
+                <button onClick={toggleMenu} className="flex items-center text-white hover:text-gray-300 focus:outline-none">
                     <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-16 6h16" />
                     </svg>

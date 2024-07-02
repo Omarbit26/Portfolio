@@ -46,26 +46,28 @@ const ShowMore = () => {
         <motion.div
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
-            className="cursor-pointer flex flex-col items-center space-y-0.5" // Reducir la separación vertical
+            className="cursor-pointer flex flex-col items-center space-y-0.5"   
             onClick={handleClick}
             animate={floatAnimation}
             transition={floatTransition}
             >
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="2"
-            stroke="currentColor"
-            className="w-12 h-12 text-white" // Duplicamos el tamaño del ícono
-            >
-            <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M16 12l-4 4-4-4m4-4v8"
-            />
-            </svg>
-            </motion.div>
+                <div>
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    className="w-12 h-12 text-white" 
+                    >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M16 12l-4 4-4-4m4-4v8"
+                    />
+                    </svg>
+                </div>
+        </motion.div>
     </div>
 
 

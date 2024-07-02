@@ -2,6 +2,7 @@ import ImagenSetsi from "../components/ImagenSetsi";
 import { motion } from 'framer-motion';
 import Buttons from "../components/Buttons";
 import ShowMore from "../components/ShowMore";
+import Icons from "../components/Icons";
 
 const Welcome = () => {
     
@@ -16,12 +17,12 @@ const Welcome = () => {
         >
           <h1 className="text-6xl font-bold">I'm Omar Aliaga</h1>
           <p className="mt-4 text-1xl text-[#fefcfb]">Fullstack & data science developer</p>
+          <Icons/>
         </motion.div>
+
 
         <Buttons/>
         <ShowMore />
-
-
       </section>
 
 

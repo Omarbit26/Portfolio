@@ -3,73 +3,55 @@ import { motion } from 'framer-motion';
 
 const Buttons = () => {
 
-        const handleEmailClick = () => {
-            window.location.href = 'mailto:omaraliaga26bit@gmail.com';
-        }
-
     return ( 
     <div className="mt-8">
 
         <div className='flex jusflex justify-between '>
-
-        <motion.a
-            className="mt-8"
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
-        >
-            <a href='https://github.com/Omarbit26' target="_blank" className="bg-[#086375] flex items-center mx-4 hover:bg-[#3a506b] text-[#fefcfb] font-bold py-2 px-4 rounded ">
-                <span className='pr-3 text-lg'>Git Hub</span>
-                <svg xmlns="http://www.w3.org/2000/svg"
-                fill="white"
-                viewBox="0 0 16 16"
-                className="inline"
-                style={{ width: '1.5em', height: '1.5em', verticalAlign: '-0.28em' }}>
-                <path fillRule="evenodd"
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-            </a>
-        </motion.a>
-
-        <motion.a
-            className="mt-8"
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
-        >
-        <a href='https://www.linkedin.com/in/jose-aliaga-092428315/' target="_blank" className=" bg-[#086375] flex items-center mx-4 hover:bg-[#3a506b] text-[#fefcfb] font-bold py-2 px-4 rounded ">
-            <span className='pr-3 text-lg'>Linkedln </span> 
-            <svg xmlns="http://www.w3.org/2000/svg"
-            fill="white" 
-            viewBox="0 0 16 16"
-            className="inline"
-            style={{ width: '1.5em', height: '1.5em', verticalAlign: '-0.28em' }}> 
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-            </svg>
-            </a>
-        </motion.a>
-
-
-        <motion.button
-        className="mt-8"
-        initial={{ y: 50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, ease: "easeOut", delay: 2.0 }}
-        >
-            <button
-            className="bg-[#086375] flex items-center mx-4 text-[#fefcfb] hover:bg-[#3a506b]  font-bold py-2 px-4 rounded "
-            onClick={handleEmailClick}
+            <motion.a
+                className="mt-8"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
             >
-            <span className='pr-3 text-lg'>Email</span> 
-                <svg xmlns="http://www.w3.org/2000/svg"
-                fill="white"
-                viewBox="0 0 16 16"
-                className="inline"
-                style={{ width: '1.5em', height: '1.5em', verticalAlign: '-0.28em' }}> {/* Duplicado el tamaño */}
-                <path fillRule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-                </svg>
-            </button>
-        </motion.button>
+                <a href="#contact" className="bg-[#086375] flex items-center mx-4 hover:bg-[#3a506b] text-[#fefcfb] font-bold py-2 px-4 rounded ">
+                    <span className='pr-3 text-lg'>Contact</span>
+                    <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        strokeWidth="0"
+                        viewBox="0 0 512 512"
+                        height="20px"
+                        width="20px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="my-second-svg-icon"
+                    >
+                        <path d="M144 208c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path>
+                    </svg>
+                </a>
+            </motion.a>
+
+            <motion.a
+                className="mt-8"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.5, ease: "easeOut", delay: 1.5 }}
+            >
+                <a href="#projects" className=" bg-[#086375] flex items-center mx-4 hover:bg-[#3a506b] text-[#fefcfb] font-bold py-2 px-4 rounded ">
+                    <span className='pr-3 text-lg'>My work</span> 
+                    <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    strokeWidth="0"
+                    viewBox="0 0 640 512"
+                    height="20px"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="my-svg-icon"
+                    >
+                    <path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"></path>
+                    </svg>
+                </a>
+            </motion.a>
         </div>
     </div>)
 }

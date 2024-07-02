@@ -8,10 +8,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#0a1128] fixed w-full z-10 top-0 shadow border-b-2 border-[#1282a2]">
+    <nav className="bg-[#0a1128] fixed w-full z-10 top-0 shadow  border-b-2 border-[#1282a2]">
 
-        <div className="container  flex flex-wrap items-center justify-between m-0 py-2 px-20 mx-auto">
-            <div className="flex items-center">
+        <div className="flex flex-wrap items-center justify-between py-2 mx-20">
+
+            <div className="flex items-center ml-20">
                 <a className="text-white text-base no-underline hover:no-underline font-extrabold text-xl" href="#home">
                 &lt;Omar/&gt;
                 </a>
@@ -26,16 +27,16 @@ const Navbar = () => {
             </div>
 
         
-            <div className={`w-full flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? '' : 'hidden'} lg:block mt-2 lg:mt-0 z-20`} id="nav-content">
+            <div className={`w-full flex-grow lg:flex lg:items-center lg:w-auto ${isOpen ? '' : 'hidden'} lg:block mt-2 lg:mt-0 z-20 mr-20`} id="nav-content">
                 <ul className="list-reset lg:flex justify-end flex-1 items-center">
-                    <li className="mr-3">
+                    <li className="mr-0">
                         <a className="inline-block py-2 px-4 text-white no-underline" href="#skills">Skills</a>
                     </li>
-                    <li className="mr-3">
+                    <li className="mr-0">
                         <a className="inline-block py-2 px-4 text-white no-underline" href="#projects">Projects</a>
                     </li>
-                    <li className="mr-3">
-                        <a className="inline-block py-2 px-4 text-white no-underline" href="#contact">Contact</a>
+                    <li className="mr-0">
+                        <a className="inline-block py-2 pl-4 text-white no-underline" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>

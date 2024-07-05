@@ -8,7 +8,7 @@ const Welcome = () => {
     
     return(
         <div>
-      <section id="home" className="h-screen flex flex-col items-center justify-center bg-[#0a1128] pt-20 px-40">
+      <section id="home" className="h-screen flex flex-col items-center justify-center bg-[#003554] pt-20 px-40">
         <motion.div
           className="mx-auto items-center justify-center text-center text-[#fefcfb]"
           initial={{ y: -100, scale: 2, opacity: 0 }}

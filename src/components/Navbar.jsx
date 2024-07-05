@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#0a1128] fixed w-full z-10 top-0 shadow  border-b-2 border-[#1282a2]">
+    <nav className="bg-[#051923] fixed w-full z-10 top-0 shadow  border-b-2 border-[#1282a2]">
 
         <div className="flex flex-wrap items-center justify-between py-2 mx-20">
 

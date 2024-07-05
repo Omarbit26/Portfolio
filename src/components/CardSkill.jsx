@@ -1,13 +1,11 @@
-const CardSkill = () => {
+const CardSkill = ({name,imagen}) => {
 
     return(
     <div>
-        <div>
-            La imagen debe aqui
-        </div>
         <p>
-            aqui el nombre
+            {name}
         </p>
+        <img src={imagen} alt="Imagen de propia" className="rounded shadow" />
     </div>)
 }
 

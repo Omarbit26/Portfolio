@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-    <section id="contact" className="py-20 bg-[#0a1128] text-center">
+    <section id="contact" className="bg-[#0a1128] text-center text-[#fefcfb] py-20 ">
         <h2 className="text-4xl font-bold mb-8">Contact</h2>
         <p className="max-w-2xl mx-auto">Aquí puedes proporcionar tus redes sociales o métodos de contacto.</p>
         <div className="flex justify-center mt-4">
